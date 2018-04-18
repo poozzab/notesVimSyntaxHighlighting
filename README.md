@@ -17,7 +17,7 @@ related comments (ones pertaining to the preceeding line) start with ->
 number literals are highlighted specially within any type of line 
     - +1234.5 and -234 are examples!
 
-open questions are enclosed in ?s such as ? why is this red? ?
+open questions are enclosed in "?"s such as ? why is this red? ? 
     -> note that the final ? is technically extraneous as the regex matched the ? after red
 
 To explicitly highlight a substring, wrap it in " quotes "
