@@ -29,13 +29,16 @@ syn match relatedCommentLine /\V\->\.\*\n/ contains=numberLiteral,substring,soli
 " Comments, at least 4 spaces and then a -
 syn match commentLine /[ ]\{4,\}-\+[^>].*\n/ contains=numberLiteral,substring,soliloquy
 syn match queryLine "\V?\.\*?" contains=numberLiteral,substring,soliloquy
+syn match statementLine /!!.*!!/ contains=numberLiteral,substring,soliloquy
 
 highlight numberLiteral ctermfg=Cyan guifg=#00ffff
 highlight subjectLine ctermfg=Blue  guifg=#0000ff
 highlight relatedCommentLine ctermfg=Yellow guifg=#c4ad00
 highlight commentLine ctermfg=Green guifg=#1f9901
-highlight queryLine ctermfg=Red guifg=#d10404
+highlight queryLine ctermfg=Brown guifg=#d34545
 highlight substring ctermfg=LightBlue guifg=#00afaa
 highlight soliloquy ctermfg=Grey guifg=#c4c4c4
+highlight statementLine ctermfg=Red guifg=#d10404
+
 
 let b:current_syntax = "notes"

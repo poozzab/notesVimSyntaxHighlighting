@@ -17,12 +17,14 @@ related comments (ones pertaining to the preceeding line) start with ->
 number literals are highlighted specially within any type of line 
     - +1234.5 and -234 are examples!
 
-open questions are enclosed in "?"s such as ? why is this red? ? 
+open questions (for yourself) are enclosed in "?"s such as ? why is this brown? ? 
     -> note that the final ? is technically extraneous as the regex matched the ? after red
 
 To explicitly highlight a substring, wrap it in " quotes "
     -> this can be done anywhere
 
-You can write in ( grey ) too.
+You can write in ( grey ) too. These are typically remarks to yourself that can usually be ignored.
+
+!! If you want to draw attention to a statement, wrap it in !!
 
 To see the syntax in action, open this file in vim and use command ":set filetype=notes"
