@@ -23,4 +23,6 @@ open questions are enclosed in "?"s such as ? why is this red? ?
 To explicitly highlight a substring, wrap it in " quotes "
     -> this can be done anywhere
 
+You can write in ( grey ) too.
+
 To see the syntax in action, open this file in vim and use command ":set filetype=notes"
