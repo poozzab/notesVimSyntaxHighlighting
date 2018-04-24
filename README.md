@@ -6,7 +6,7 @@ To install:
 
 now any file you write that is appended with either ".notes" or ".IGNOREME" extensions will abide by a custom syntax highlighter. It is a very simple syntax to follow:
 
-Subject lines are defined by a leading # or ending :
+Subject lines are defined by an ending :
     -> anything that ends with a : will be highlighted
     example sentence containing : but isn't a subject line
 
@@ -26,5 +26,13 @@ To explicitly highlight a substring, wrap it in " quotes "
 You can write in ( grey ) too. These are typically remarks to yourself that can usually be ignored.
 
 !! If you want to draw attention to a statement, wrap it in !!
+
+For school note taking purposes, you can define a concept using the following format
+# concept := concept definition #
+
+Concepts are restricted to singular lines, but definitions can span multiple lines and look like this
+# concept := concept
+definition
+#
 
 To see the syntax in action, open this file in vim and use command ":set filetype=notes"
