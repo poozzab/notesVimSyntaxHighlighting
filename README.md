@@ -30,4 +30,9 @@ You can write in ( grey ) too. These are typically remarks to yourself that can 
 For school note taking purposes, you can define a concept using the following format
 # concept := concept definition #
 
+Concepts are restricted to singular lines, but definitions can span multiple lines and look like this
+# concept := concept
+definition
+#
+
 To see the syntax in action, open this file in vim and use command ":set filetype=notes"
