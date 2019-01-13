@@ -14,10 +14,10 @@ comment lines have at least 4 spaces preceeding a -
 
 related comments (ones pertaining to the preceeding line) start with ->
 
-number literals are highlighted specially within any type of line 
+number literals are highlighted specially within any type of line
     - +1234.5 and -234 are examples!
 
-open questions (for yourself) are enclosed in "?"s such as ? why is this brown? ? 
+open questions (for yourself) are enclosed in "?"s such as ? why is this brown? ?
     -> note that the final ? is technically extraneous as the regex matched the ? after red
 
 To explicitly highlight a substring, wrap it in " quotes "
@@ -34,5 +34,28 @@ Concepts are restricted to singular lines, but definitions can span multiple lin
 # concept := concept
 definition
 #
+
+You can also specially highlight subsections of your notes using another syntax highlighter!
+    -While you can certainly modify to add your own, the following are natively supported
+
+Python:
+py|
+def __init__():
+    print "Hello World!"
+|py
+
+C++:
+cpp|
+int main()
+{
+    cout << "Hello World";
+    return 0;
+}
+|cpp
+
+SQL (because why not):
+sql|
+    SELECT * FROM Table;
+|sql
 
 To see the syntax in action, open this file in vim and use command ":set filetype=notes"
