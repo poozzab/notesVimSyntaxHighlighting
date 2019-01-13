@@ -78,3 +78,5 @@ endfunction
 let b:current_syntax = "notes"
 
 call TextEnableCodeSnip('python', 'py|', '|py', 'SpecialComment')
+call TextEnableCodeSnip('cpp', 'cpp|', '|cpp', 'SpecialComment')
+call TextEnableCodeSnip('sql', 'sql|', '|sql', 'SpecialComment')
